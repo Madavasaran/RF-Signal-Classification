@@ -1,6 +1,6 @@
 
 # 📡 RF Modulation Classification using CNN  
-A deep learning project built using **PyTorch** to classify synthetic **Radio Frequency (RF) modulations** using spectrogram-like waveform data. The model is trained to distinguish between different modulation types like BPSK, QPSK, AM, FM, etc.
+A deep learning project built using **PyTorch** to classify synthetic **Radio Frequency (RF) modulations** using spectrogram-like waveform data. The model is trained to distinguish between different modulation types like BPSK, QPSK, AM-DSB, WBFM and 8PSK.
 
 ## 🚀 Features  
 - 🧠 Trains a 1D **Convolutional Neural Network (CNN)** for signal classification  
@@ -25,9 +25,9 @@ Given an IQ waveform of shape `[2, 128]`, the trained model predicts:
 ## 📂 Project Structure  
 ```
 📁 rf-modulation-classifier  
-│── 📄 train.py            # Model training logic  
-│── 📄 rf_dataset_loader.py          # Sample prediction script  
+│── 📄 train.py            
+│── 📄 rf_dataset_loader.py          
 │── 📄 rf_cnn_model.pt            
-│── 📁 data/               # Synthetic RF data  
+│── 📁 data/              
 
 ```
