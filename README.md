@@ -3,7 +3,7 @@
 A deep learning project built using **PyTorch** to classify synthetic **Radio Frequency (RF) modulations** using spectrogram-like waveform data. The model is trained to distinguish between different modulation types like BPSK, QPSK, AM-DSB, WBFM and 8PSK.
 
 ## 🚀 Features  
-- 🧠 Architecture: Custom **CNN with Adam optimizer 
+- 🧠 Architecture: Custom **CNN** with Adam optimizer 
 - 🔁 Uses synthetic RF waveform data with 128-sample IQ pairs  
 - 📈 Includes confusion matrix and accuracy visualization  
 - 🔍 Predicts modulation class for new waveform inputs  
